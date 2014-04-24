@@ -15,6 +15,7 @@ class McpluginLicenseGrailsPlugin {
 			"grails-app/domain/ru/multicabinet/PacketProps.groovy",
 			"grails-app/domain/ru/multicabinet/ShiroRole.groovy",
 			"grails-app/domain/ru/multicabinet/ShiroUser.groovy",
+            "grails-app/domain/ru/multicabinet/UserProps.groovy",
 			"grails-app/domain/ru/multicabinet/ModulefieldsValues.groovy",
 			"grails-app/domain/ru/multicabinet/Server.groovy",
 			"grails-app/domain/ru/multicabinet/ServerProps.groovy",
