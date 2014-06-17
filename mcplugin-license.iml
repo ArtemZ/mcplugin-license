@@ -82,6 +82,9 @@
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.codehaus.plexus/plexus-container-default/jars/plexus-container-default-1.0-alpha-9-stable-1.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/classworlds/classworlds/jars/classworlds-1.1-alpha-2.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.maven/maven-ant-tasks/jars/maven-ant-tasks-2.1.3.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.opensymphony.quartz/quartz/jars/quartz-1.6.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.shiro/shiro-quartz/bundles/shiro-quartz-1.2.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/junit/junit/jars/junit-4.8.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -89,6 +92,7 @@
       </library>
     </orderEntry>
     <orderEntry type="module" module-name="mcplugin-license-grailsPlugins" />
+    <orderEntry type="library" name="grails-2.3.9" level="application" />
   </component>
 </module>
 

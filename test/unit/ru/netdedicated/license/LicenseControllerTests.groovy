@@ -10,8 +10,8 @@ import org.junit.*
  */
 @TestFor(LicenseController)
 class LicenseControllerTests {
-
+/*
     void testSomething() {
        fail "Implement me"
-    }
+    }*/
 }

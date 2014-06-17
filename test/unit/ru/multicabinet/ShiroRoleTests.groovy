@@ -11,7 +11,7 @@ import org.junit.*
 @TestFor(ShiroRole)
 class ShiroRoleTests {
 
-    void testSomething() {
+ /*   void testSomething() {
        fail "Implement me"
-    }
+    }*/
 }

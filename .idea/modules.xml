@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/mcplugin-license.iml" filepath="$PROJECT_DIR$/mcplugin-license.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mcplugin-license-grailsPlugins.iml" filepath="$PROJECT_DIR$/mcplugin-license-grailsPlugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/McpluginLicense.iml" filepath="$PROJECT_DIR$/McpluginLicense.iml" />
+      <module fileurl="file://$PROJECT_DIR$/McpluginLicense-grailsPlugins.iml" filepath="$PROJECT_DIR$/McpluginLicense-grailsPlugins.iml" />
     </modules>
   </component>
 </project>

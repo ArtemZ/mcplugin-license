@@ -13,7 +13,7 @@ class Servermodule_licenseserverService {
 			version : 0.1
 	]
 	Map accountAccessFields = [
-			licenseid : [ type : "password", desc : "License ID", required : true]
+			licenseid : [ type : "password", desc : "License ID", required : true, force : true]
 	]
 	Map serverAccessFields = [
 			licenseserverUrl : [type : "text", desc : "License Server URL", required : true],

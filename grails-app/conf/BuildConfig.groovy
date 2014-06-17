@@ -2,6 +2,11 @@ grails.project.class.dir = "target/classes"
 grails.project.test.class.dir = "target/test-classes"
 grails.project.test.reports.dir = "target/test-reports"
 
+grails.project.repos.develDynamic.url = "http://develdynamic.com:8081/artifactory/mc-grails-plugins"
+//grails.project.repos.develDynamic.type = "maven"
+grails.project.repos.develDynamic.username = "admin"
+grails.project.repos.develDynamic.password = "x3reunion"
+grails.project.repos.default = "develDynamic"
 grails.project.dependency.resolution = {
     // inherit Grails' default dependencies
     inherits("global") {
@@ -15,27 +20,31 @@ grails.project.dependency.resolution = {
         mavenCentral()
         // uncomment the below to enable remote dependency resolution
         // from public Maven repositories
-        mavenLocal()
+        //mavenLocal()
         //mavenRepo "http://snapshots.repository.codehaus.org"
         //mavenRepo "http://repository.codehaus.org"
         //mavenRepo "http://download.java.net/maven/2/"
         //mavenRepo "http://repository.jboss.com/maven2/"
+        mavenRepo("http://develdynamic.com:8081/artifactory/libs-snapshot-local")
+        mavenRepo "http://repo.grails.org/grails/core"
     }
     dependencies {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
 
         // runtime 'mysql:mysql-connector-java:5.1.21'
 	    runtime 'licenseApi:licenseApi:1.0-SNAPSHOT'
+        //runtime 'javax.servlet:servlet-api:2.5'
+        //runtime 'org.jboss.resteasy:async-http-servlet-3.0:3.0.8.Final'
     }
 
     plugins {
-        build(":tomcat:7.0.52.1",
+        build(
               ":release:3.0.1",
-              ":rest-client-builder:2.0.1") {
+              ":rest-client-builder:1.0.3") {
             export = false
         }
-	    compile (":shiro:1.2.1")  {
+	    runtime (":shiro:1.2.1") /* {
 		    excludes "shiro-quartz" //shiro-quartz conflicts with newer quartz plugin
-	    }
+	    }*/
     }
 }
