@@ -2,29 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="935d3052-5e46-4815-91b3-f8d3a1228f94" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-mcplugin-license-0.4.2.zip.sha1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/ru/mulicabinet/Servermodule_licenseserverServiceTests.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test2.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.project" afterPath="$PROJECT_DIR$/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/ru/netdedicated/license/LicenseControllerTests.groovy" afterPath="$PROJECT_DIR$/test/unit/ru/netdedicated/license/LicenseControllerTests.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McpluginLicenseGrailsPlugin.groovy" afterPath="$PROJECT_DIR$/McpluginLicenseGrailsPlugin.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/ru/mulicabinet/Servermodule_licenseserverService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/ru/mulicabinet/Servermodule_licenseserverService.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/ru/multicabinet/ShiroRoleTests.groovy" afterPath="$PROJECT_DIR$/test/unit/ru/multicabinet/ShiroRoleTests.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mcplugin-license-grailsPlugins.iml" afterPath="$PROJECT_DIR$/mcplugin-license-grailsPlugins.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mcplugin-license.iml" afterPath="$PROJECT_DIR$/mcplugin-license.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mc-license.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
     <file path="$PROJECT_DIR$/.idea/compiler.xml" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1395646882549" ignored="false" />
-    <file path="/Dummy.txt" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1403002033765" ignored="false" />
+    <file path="/Dummy.txt" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1404125775530" ignored="false" />
     <file path="/McLicenseGrailsPlugin.groovy" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1395647597096" ignored="false" />
     <file path="/PluginConfig.groovy" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1395903070904" ignored="false" />
     <file path="/a.dummy" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1395647902023" ignored="false" />
@@ -55,12 +41,12 @@
     <file path="$PROJECT_DIR$/../multicabinet/web-app/js/application.js" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1396263201686" ignored="false" />
     <file path="$PROJECT_DIR$/../multicabinet/grails-app/views/layouts/user.gsp" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1398373416709" ignored="false" />
     <file path="/user.gsp" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1398370301618" ignored="false" />
-    <file path="/Servermodule_licenseserverService.groovy" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1398434892293" ignored="false" />
+    <file path="/Servermodule_licenseserverService.groovy" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1404128761297" ignored="false" />
     <file path="$PROJECT_DIR$/../multicabinet/grails-app/domain/ru/multicabinet/UserProps.groovy" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1396510900935" ignored="false" />
     <file path="/UserProps.groovy" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1396509017132" ignored="false" />
     <file path="$PROJECT_DIR$/../multicabinet/application.properties" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1401797957540" ignored="false" />
     <file path="$PROJECT_DIR$/../multicabinet/grails-app/domain/ru/multicabinet/Order.groovy" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1401797957537" ignored="false" />
-    <file path="$PROJECT_DIR$/../multicabinet/grails-app/controllers/ru/multicabinet/ShopController.groovy" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1401797957538" ignored="false" />
+    <file path="$PROJECT_DIR$/../multicabinet/grails-app/controllers/ru/multicabinet/ShopController.groovy" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1404124370229" ignored="false" />
     <file path="$PROJECT_DIR$/../multicabinet/grails-app/services/ru/multicabinet/Servermodule_exampleService.groovy" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1398551689744" ignored="false" />
     <file path="/Servermodule_exampleService.groovy" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1398548054735" ignored="false" />
     <file path="$PROJECT_DIR$/../multicabinet/grails-app/views/shop/overviewOrder.gsp" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1396602639073" ignored="false" />
@@ -76,7 +62,7 @@
     <file path="/ServersgroupController.groovy" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1396607552625" ignored="false" />
     <file path="$PROJECT_DIR$/../multicabinet/grails-app/views/serversgroup/list.gsp" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1396610348775" ignored="false" />
     <file path="/list.gsp" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1396608074547" ignored="false" />
-    <file path="/ShopController.groovy" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1396795540101" ignored="false" />
+    <file path="/ShopController.groovy" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1404124358996" ignored="false" />
     <file path="$PROJECT_DIR$/../multicabinet.com/application.properties" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1397024759778" ignored="false" />
     <file path="$PROJECT_DIR$/../multicabinet/grails-app/controllers/ru/multicabinet/UserController.groovy" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1401797957538" ignored="false" />
     <file path="$PROJECT_DIR$/../multicabinet/grails-app/taglib/org/grails/plugins/settings/FormatterTagLib.groovy" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1398373416709" ignored="false" />
@@ -112,8 +98,8 @@
     <file path="$PROJECT_DIR$/../multicabinet/grails-app/services/ru/multicabinet/CalculatorService.groovy" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1401797957537" ignored="false" />
     <file path="$PROJECT_DIR$/../multicabinet/grails-app/jobs/ru/multicabinet/OrderJob.groovy" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1401797957537" ignored="false" />
     <file path="$PROJECT_DIR$/../multicabinet/grails-app/domain/ru/multicabinet/ItemOrder.groovy" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1401797957537" ignored="false" />
-    <file path="$PROJECT_DIR$/../multicabinet/grails-app/controllers/ru/multicabinet/OrderController.groovy" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1401797957538" ignored="false" />
-    <file path="$PROJECT_DIR$/../multicabinet/grails-app/services/ru/multicabinet/TriggersService.groovy" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1401797957538" ignored="false" />
+    <file path="$PROJECT_DIR$/../multicabinet/grails-app/controllers/ru/multicabinet/OrderController.groovy" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1404123234340" ignored="false" />
+    <file path="$PROJECT_DIR$/../multicabinet/grails-app/services/ru/multicabinet/TriggersService.groovy" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1404126389889" ignored="false" />
     <file path="$PROJECT_DIR$/../multicabinet/grails-app/views/admin/dashboard.gsp" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1401797957538" ignored="false" />
     <file path="$PROJECT_DIR$/../multicabinet/grails-app/services/ru/multicabinet/OrderprocessorService.groovy" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1401797937493" ignored="false" />
     <file path="$PROJECT_DIR$/../multicabinet/grails-app/controllers/ru/multicabinet/InvoiceController.groovy" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1401797957538" ignored="false" />
@@ -132,6 +118,11 @@
     <file path="$PROJECT_DIR$/../multicabinet/grails-app/views/invoice/addpayment.gsp" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1401797957539" ignored="false" />
     <file path="$PROJECT_DIR$/../multicabinet/grails-app/views/user/listTransactions.gsp" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1401797957540" ignored="false" />
     <file path="$PROJECT_DIR$/../multicabinet/grails-app/views/user/dashboard.gsp" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1401797957540" ignored="false" />
+    <file path="$PROJECT_DIR$/../multicabinet.com/grails-app/views/layouts/new_main.gsp" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1403081293269" ignored="false" />
+    <file path="/new_main.gsp" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1403042317365" ignored="false" />
+    <file path="/OrderController.groovy" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1404123231000" ignored="false" />
+    <file path="$PROJECT_DIR$/../licenseserver/src/main/java/net/netdedicated/db/DBInit.java" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1404123754188" ignored="false" />
+    <file path="/TriggersService.groovy" changelist="935d3052-5e46-4815-91b3-f8d3a1228f94" time="1404126357217" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +137,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -183,6 +173,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -195,7 +186,7 @@
       <file leaf-file-name="McpluginLicenseGrailsPlugin.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/McpluginLicenseGrailsPlugin.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="82" selection-start="625" selection-end="625" vertical-scroll-proportion="0.23595506">
+            <state line="4" column="24" selection-start="119" selection-end="119" vertical-scroll-proportion="0.06741573">
               <folding />
             </state>
           </provider>
@@ -204,7 +195,7 @@
       <file leaf-file-name="Servermodule_licenseserverService.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/services/ru/mulicabinet/Servermodule_licenseserverService.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="96" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
+            <state line="36" column="110" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -240,7 +231,7 @@
       <file leaf-file-name="BuildConfig.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="10" selection-start="1753" selection-end="1753" vertical-scroll-proportion="-21.6">
+            <state line="23" column="79" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -288,7 +279,6 @@
         <option value="$PROJECT_DIR$/grails-app/domain/ru/multicabinet/Order.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/ru/multicabinet/Packet.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/ru/multicabinet/PacketProps.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/services/ru/mulicabinet/Servermodule_licenseserverService.groovy" />
         <option value="$PROJECT_DIR$/Mcplugin-LicenseGrailsPlugin.groovy" />
         <option value="$PROJECT_DIR$/application.properties" />
         <option value="$PROJECT_DIR$/.project" />
@@ -296,6 +286,7 @@
         <option value="$PROJECT_DIR$/test/unit/ru/netdedicated/license/LicenseControllerTests.groovy" />
         <option value="$PROJECT_DIR$/test/unit/ru/multicabinet/ShiroRoleTests.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/services/ru/mulicabinet/Servermodule_licenseserverService.groovy" />
         <option value="$PROJECT_DIR$/McpluginLicenseGrailsPlugin.groovy" />
         <option value="$PROJECT_DIR$/plugin.xml" />
       </list>
@@ -303,8 +294,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1985" />
-    <option name="y" value="-1084" />
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
     <option name="width" value="1855" />
     <option name="height" value="1084" />
   </component>
@@ -334,6 +325,21 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc-license" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mc-license" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -386,21 +392,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mc-license" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mc-license" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -565,7 +556,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1985" y="-1084" width="1855" height="1084" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -664,11 +655,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="76" selection-end="76" vertical-scroll-proportion="0.032930844" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.classpath">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -717,6 +703,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/ru/multicabinet/PacketProps.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -725,28 +714,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/shiro-1.2.1/dependencies.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/shiro-1.2.1/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="10" selection-start="1753" selection-end="1753" vertical-scroll-proportion="-21.6">
+        <state line="23" column="79" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/services/ru/mulicabinet/Servermodule_licenseserverService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="110" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -758,9 +743,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/McpluginLicenseGrailsPlugin.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="82" selection-start="625" selection-end="625" vertical-scroll-proportion="0.23595506">
+        <state line="4" column="24" selection-start="119" selection-end="119" vertical-scroll-proportion="0.06741573">
           <folding />
         </state>
       </provider>
@@ -772,7 +764,7 @@
         <entry key="McpluginLicense">
           <value>
             <GrailsSettings>
-              <option name="buildConfigCrc" value="-1608169787" />
+              <option name="buildConfigCrc" value="389775470" />
               <option name="pluginDependenciesCrc" value="383555174" />
               <option name="properties">
                 <map>

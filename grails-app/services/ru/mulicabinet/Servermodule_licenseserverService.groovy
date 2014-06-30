@@ -13,7 +13,7 @@ class Servermodule_licenseserverService {
 			version : 0.1
 	]
 	Map accountAccessFields = [
-			licenseid : [ type : "password", desc : "License ID", required : true, force : true]
+			password : [ type : "password", desc : "License ID", required : true, force : true]
 	]
 	Map serverAccessFields = [
 			licenseserverUrl : [type : "text", desc : "License Server URL", required : true],
@@ -33,8 +33,8 @@ class Servermodule_licenseserverService {
 				serverAccessData.get("licenseserverUrl")
 		)
 		//find order
-		def order = GrailsUtils.getDomainClass("OrderProps").findByKeyAndValue("licenseid", accountAccessData.get("licenseid"))?.order
-		if(!order) throw new Exception("No OrderProps found for licenseid: " + accountAccessData.get("licenseid"));
+		def order = GrailsUtils.getDomainClass("OrderProps").findByKeyAndValue("password", accountAccessData.get("password"))?.order
+		if(!order) throw new Exception("No OrderProps found for licenseid: " + accountAccessData.get("password"));
 
 		//find license ip
 		def field = GrailsUtils.getDomainClass("ModulefieldsValues").findByNameAndOrder("licenseIp", order)
