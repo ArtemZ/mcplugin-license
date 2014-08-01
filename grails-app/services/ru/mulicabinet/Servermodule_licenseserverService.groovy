@@ -2,6 +2,7 @@ package ru.mulicabinet
 
 import net.netdedicated.license.BasicCredentials
 import net.netdedicated.license.LicenseApi
+import ru.multicabinet.module.server.ServerModuleData
 import ru.netdedicated.GrailsUtils
 
 
@@ -27,30 +28,30 @@ class Servermodule_licenseserverService {
 	Map customUserFields = [
 			licenseIp : [ type: "text", desc: "License IP", required: true]
 	]
-	String create(Map serverAccessData, Map accountAccessData, Map accountData, Map options) throws Exception {
+	String create(ServerModuleData data) throws Exception {
 		LicenseApi api = new LicenseApi(
-				new BasicCredentials(serverAccessData.get("licenseserverLogin"), serverAccessData.get("licenseserverPassword")),
-				serverAccessData.get("licenseserverUrl")
+				new BasicCredentials(data.getServerAccessValue("licenseserverLogin"), data.getServerAccessValue("licenseserverPassword")),
+				data.getServerAccessValue("licenseserverUrl")
 		)
-		//find order
+		/*//find order
 		def order = GrailsUtils.getDomainClass("OrderProps").findByKeyAndValue("password", accountAccessData.get("password"))?.order
 		if(!order) throw new Exception("No OrderProps found for licenseid: " + accountAccessData.get("password"));
 
 		//find license ip
 		def field = GrailsUtils.getDomainClass("ModulefieldsValues").findByNameAndOrder("licenseIp", order)
-		if(!field) throw new Exception("Unable to find ModulefieldsValues for licenseIp and order #" + order.id);
+		if(!field) throw new Exception("Unable to find ModulefieldsValues for licenseIp and order #" + order.id);*/
 
 		//create actual license
-		api.create(accountData.get("licenseName"), field.value)
-		return field.value
+		api.create(data.getAccountField("licenseName"), data.getCustomField("licenseIp"))
+		return data.getCustomField("licenseIp")
 	}
-	Boolean suspend(String serviceId, Map serverAccessData, Map accountAccessData){
-		terminate(serviceId, serverAccessData, accountAccessData)
+	Boolean suspend(String serviceId, ServerModuleData data) throws Exception{
+		terminate(serviceId, data)
 	}
-	Boolean terminate(String serviceId, Map serverAccessData, Map accountAccessData) throws Exception{
+	Boolean terminate(String serviceId, ServerModuleData data) throws Exception{
 		LicenseApi api = new LicenseApi(
-				new BasicCredentials(serverAccessData.get("licenseserverLogin"), serverAccessData.get("licenseserverPassword")),
-				serverAccessData.get("licenseserverUrl")
+				new BasicCredentials(data.getServerAccessValue("licenseserverLogin"), data.getServerAccessValue("licenseserverPassword")),
+				data.getServerAccessValue("licenseserverUrl")
 		)
 		api.delete(serviceId)
 		return true
@@ -58,24 +59,25 @@ class Servermodule_licenseserverService {
 	/*
 		Updating license type, not ip
 	 */
-	Boolean update(String serviceId, Map serverAccessData, Map accountAccessData, Map accountData){
+	Boolean update(String serviceId, ServerModuleData data) throws Exception{
 		LicenseApi api = new LicenseApi(
-				new BasicCredentials(serverAccessData.get("licenseserverLogin"), serverAccessData.get("licenseserverPassword")),
-				serverAccessData.get("licenseserverUrl")
+				new BasicCredentials(data.getServerAccessValue("licenseserverLogin"), data.getServerAccessValue("licenseserverPassword")),
+				data.getServerAccessValue("licenseserverUrl")
 		)
-		api.update(serviceId, serviceId, accountData.get("licenseName"))
+		api.update(serviceId, serviceId, data.getAccountField("licenseName"))
 		return true
 	}
-	Boolean unsuspend(String serviceId, Map serverAccessData, Map accountAccessData){
+	Boolean unsuspend(String serviceId, ServerModuleData data) throws Exception{
 		LicenseApi api = new LicenseApi(
-				new BasicCredentials(serverAccessData.get("licenseserverLogin"), serverAccessData.get("licenseserverPassword")),
-				serverAccessData.get("licenseserverUrl")
+				new BasicCredentials(data.getServerAccessValue("licenseserverLogin"), data.getServerAccessValue("licenseserverPassword")),
+				data.getServerAccessValue("licenseserverUrl")
 		)
-		def order = GrailsUtils.getDomainClass("Order").findByServiceId(serviceId);
+		/*def order = GrailsUtils.getDomainClass("Order").findByServiceId(serviceId);
 		if(!order) throw new Exception("Unable to find order with service id: " + order.serviceId)
 		def props = GrailsUtils.getDomainClass("PacketProps").findByPacketAndKey(order.packet, "licenseName");
-		if (!props) throw new Exception("Unable to find PacketProps for packet #" + order.packet.id)
-		api.create(props.value, serviceId)
+		if (!props) throw new Exception("Unable to find PacketProps for packet #" + order.packet.id)*/
+		/*api.create(props.value, serviceId)*/
+        api.create(data.getAccountField("licenseName"), serviceId)
 		return true
 	}
 }
