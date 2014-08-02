@@ -29,9 +29,15 @@ class Servermodule_licenseserverService {
 			licenseIp : [ type: "text", desc: "License IP", required: true]
 	]
 	String create(ServerModuleData data) throws Exception {
+        assert  data.getServerAccessValue("licenseserverLogin") != null
+        assert  data.getServerAccessValue("licenseserverPassword") != null
+        assert  data.getServerAccessValue("licenseserverUrl") != null
+        assert  data.getAccountField("licenseName") != null
+        assert  data.getCustomField("licenseIp") != null
 		LicenseApi api = new LicenseApi(
 				new BasicCredentials(data.getServerAccessValue("licenseserverLogin"), data.getServerAccessValue("licenseserverPassword")),
-				data.getServerAccessValue("licenseserverUrl")
+				data.getServerAccessValue("licenseserverUrl"),
+                true
 		)
 		/*//find order
 		def order = GrailsUtils.getDomainClass("OrderProps").findByKeyAndValue("password", accountAccessData.get("password"))?.order

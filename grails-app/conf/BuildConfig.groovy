@@ -32,7 +32,7 @@ grails.project.dependency.resolution = {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
 
         // runtime 'mysql:mysql-connector-java:5.1.21'
-	    runtime 'licenseApi:licenseApi:1.0-SNAPSHOT'
+	    runtime 'licenseApi:licenseApi:1.3-SNAPSHOT'
         //runtime 'javax.servlet:servlet-api:2.5'
         //runtime 'org.jboss.resteasy:async-http-servlet-3.0:3.0.8.Final'
     }
@@ -43,6 +43,7 @@ grails.project.dependency.resolution = {
               ":rest-client-builder:1.0.3", ":tomcat:7.0.54") {
             export = false
         }
+        runtime ":hibernate:3.6.10.12"
 	    runtime (":shiro:1.2.1") /* {
 		    excludes "shiro-quartz" //shiro-quartz conflicts with newer quartz plugin
 	    }*/
